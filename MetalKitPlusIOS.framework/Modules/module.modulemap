@@ -1,0 +1,11 @@
+framework module MetalKitPlusIOS {
+  umbrella header "MetalKitPlusIOS.h"
+
+  export *
+  module * { export * }
+}
+
+module MetalKitPlusIOS.Swift {
+    header "MetalKitPlusIOS-Swift.h"
+    requires objc
+}
